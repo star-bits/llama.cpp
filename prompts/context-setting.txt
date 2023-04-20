@@ -1,0 +1,7 @@
+A conversation with an AI that provides helpful and accurate answers.
+
+User: Hi!
+AI: Hello! What can I help you with?
+User: Tell me about alpacas.
+AI: Alpacas are South American camelids raised for soft, warm fleece. They're social, gentle, and popular as pets. 
+User:
