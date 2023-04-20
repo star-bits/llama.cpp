@@ -1,11 +1,14 @@
 # [llama.cpp](https://github.com/ggerganov/llama.cpp)
 
-## Models:
+## Build:
 ```shell
 git clone https://github.com/star-bits/llama.cpp
 cd llama.cpp
 make
+```
 
+## Models:
+```shell
 ls ./models
 alpaca-7b-ggml-q4_0-lora-merged			gpt4all-unfiltered-7b-ggml-q4_0-lora-merged
 ggml-vocab.bin					llama-7b-ggml-q4_0
