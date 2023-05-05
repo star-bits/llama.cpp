@@ -10,15 +10,15 @@ make
 ## Models:
 ```shell
 ls ./models
-alpaca-7b-ggml-q4_0-lora-merged			gpt4all-unfiltered-7b-ggml-q4_0-lora-merged
-ggml-vocab.bin					llama-7b-ggml-q4_0
-gpt4all-7b-ggml-q4_0-lora-merged		vicuna-7b-ggml-4bit
+alpaca-7b-ggml-q4_0-lora-merged		llama-7b-ggml-q4_0
+ggml-vocab.bin				vicuna-13b
+gpt4all-7b-ggml-q4_0-lora-merged	vicuna-7b
 ```
 - `./models/alpaca-7b-ggml-q4_0-lora-merged/ggml-model-q4_0.bin`
 - `./models/gpt4all-7b-ggml-q4_0-lora-merged/ggml-model-q4_0.bin`
-- `./models/gpt4all-unfiltered-7b-ggml-q4_0-lora-merged/ggml-model-q4_0.bin`
 - `./models/llama-7b-ggml-q4_0/ggml-model-q4_0.bin`
-- `./models/vicuna-7b-ggml-4bit/ggml-vicuna-7b-4bit.bin`
+- `./models/vicuna-7b/ggml-vic7b-q4_0.bin`
+- `./models/vicuna-13b/ggml-vic13b-q4_0.bin`
 
 ## Help:
 ```shell
@@ -42,5 +42,5 @@ User:
 
 ## Run:
 ```shell
-./main -m ./models/gpt4all-7b-ggml-q4_0-lora-merged/ggml-model-q4_0.bin -n 256 --repeat_penalty 1.0 --color -i -r "User:" -f prompts/context-setting.txt
+./main -m ./models/vicuna-13b/ggml-vic13b-q4_0.bin -n -1 --repeat_penalty 1.0 --color -i -f prompts/context-setting.txt -r "User:"
 ```
