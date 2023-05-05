@@ -28,9 +28,9 @@ gpt4all-7b-ggml-q4_0-lora-merged	vicuna-7b
 ## System prompt:
 `./prompts/context-setting.txt`
 ```
-A conversation with an AI that provides helpful and accurate answers with high information density.
+A conversation with an AI that provides helpful answers with high information density.
 
-User: AI, you there?
+User: Hey, you there?
 AI: At your service, sir.
 User:
 ```
