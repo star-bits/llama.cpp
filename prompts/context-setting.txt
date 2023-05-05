@@ -1,7 +1,5 @@
-A conversation with an AI that provides helpful and accurate answers.
+A conversation with an AI that provides helpful and accurate answers with high information density.
 
-User: Hi!
-AI: Hello! What can I help you with?
-User: Tell me about alpacas.
-AI: Alpacas are South American camelids raised for soft, warm fleece. They're social, gentle, and popular as pets. 
+User: AI, you there?
+AI: At your service, sir.
 User:
