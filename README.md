@@ -17,8 +17,8 @@ gpt4all-7b-ggml-q4_0-lora-merged	vicuna-7b
 - `./models/alpaca-7b-ggml-q4_0-lora-merged/ggml-model-q4_0.bin`
 - `./models/gpt4all-7b-ggml-q4_0-lora-merged/ggml-model-q4_0.bin`
 - `./models/llama-7b-ggml-q4_0/ggml-model-q4_0.bin`
-- `./models/vicuna-7b/ggml-vic7b-q4_0.bin`
-- `./models/vicuna-13b/ggml-vic13b-q4_0.bin`
+- [<code>./models/vicuna-7b/ggml-vic7b-q4_0.bin</code>](https://huggingface.co/eachadea/ggml-vicuna-7b-1.1)
+- [<code>./models/vicuna-13b/ggml-vic13b-q4_0.bin</code>](https://huggingface.co/eachadea/ggml-vicuna-13b-1.1)
 
 ## Help:
 ```shell
@@ -28,12 +28,10 @@ gpt4all-7b-ggml-q4_0-lora-merged	vicuna-7b
 ## System prompt:
 `./prompts/context-setting.txt`
 ```
-A conversation with an AI that provides helpful and accurate answers.
+A conversation with an AI that provides helpful and accurate answers with high information density.
 
-User: Hi!
-AI: Hello! What can I help you with?
-User: Tell me about alpacas.
-AI: Alpacas are South American camelids raised for soft, warm fleece. They're social, gentle, and popular as pets. 
+User: AI, you there?
+AI: At your service, sir.
 User:
 ```
 
