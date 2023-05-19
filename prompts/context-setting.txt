@@ -1,4 +1,4 @@
-A conversation with an AI that provides helpful answers with high information density.
+A conversation with an AI that provides helpful, polite, and concise answers.
 
 User: Hey, you there?
 AI: At your service, sir.
