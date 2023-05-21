@@ -10,10 +10,10 @@ make
 
 ## Models:
 ```shell
-ls ./models
-alpaca-7b-ggml-q4_0-lora-merged		llama-7b-ggml-q4_0
-ggml-vocab.bin				vicuna-13b
+ls ../../weights/llama.cpp/models 
+alpaca-7b-ggml-q4_0-lora-merged		vicuna-13b
 gpt4all-7b-ggml-q4_0-lora-merged	vicuna-7b
+llama-7b-ggml-q4_0
 ```
 - `./models/alpaca-7b-ggml-q4_0-lora-merged/ggml-model-q4_0.bin`
 - `./models/gpt4all-7b-ggml-q4_0-lora-merged/ggml-model-q4_0.bin`
@@ -41,5 +41,5 @@ User:
 
 ## Run:
 ```shell
-./main -m ./models/vicuna-13b/ggml-vic13b-q4_0.bin -n -1 --repeat_penalty 1.0 --color -i -f prompts/context-setting.txt -r "User:"
+./main -m ../../weights/llama.cpp/models/vicuna-13b/ggml-vic13b-q4_0.bin -n -1 --repeat_penalty 1.0 --color -i -f prompts/context-setting.txt -r "User:"
 ```
