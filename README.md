@@ -35,9 +35,8 @@ User: Hey, you there?
 AI: At your service, sir.
 User:
 ```
-
 ## [pyllamacpp](https://github.com/nomic-ai/pyllamacpp)
-`./pyllamacpp.ipynb`
+[<code>./pyllamacpp.ipynb</code>](https://github.com/star-bits/llama.cpp/blob/master/pyllamacpp.ipynb)
 
 ## Run:
 ```shell
